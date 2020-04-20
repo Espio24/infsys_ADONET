@@ -1,0 +1,6 @@
+D:\Others\Проги\infsys\infsys\bin\Debug\infsys.exe.config
+D:\Others\Проги\infsys\infsys\bin\Debug\infsys.exe
+D:\Others\Проги\infsys\infsys\bin\Debug\infsys.pdb
+D:\Others\Проги\infsys\infsys\obj\Debug\infsys.csprojResolveAssemblyReference.cache
+D:\Others\Проги\infsys\infsys\obj\Debug\infsys.exe
+D:\Others\Проги\infsys\infsys\obj\Debug\infsys.pdb
