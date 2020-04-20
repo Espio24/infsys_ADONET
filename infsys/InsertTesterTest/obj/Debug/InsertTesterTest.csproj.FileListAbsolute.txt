@@ -1,0 +1,7 @@
+D:\Others\Проги\infsys\InsertTesterTest\bin\Debug\InsertTesterTest.dll
+D:\Others\Проги\infsys\InsertTesterTest\bin\Debug\InsertTesterTest.pdb
+D:\Others\Проги\infsys\InsertTesterTest\bin\Debug\infsys.exe
+D:\Others\Проги\infsys\InsertTesterTest\bin\Debug\infsys.pdb
+D:\Others\Проги\infsys\InsertTesterTest\obj\Debug\InsertTesterTest.csprojResolveAssemblyReference.cache
+D:\Others\Проги\infsys\InsertTesterTest\obj\Debug\InsertTesterTest.dll
+D:\Others\Проги\infsys\InsertTesterTest\obj\Debug\InsertTesterTest.pdb

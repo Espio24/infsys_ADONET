@@ -1,0 +1,7 @@
+D:\Others\Проги\infsys\ConnectionTest\obj\Debug\ConnectionTest.csprojResolveAssemblyReference.cache
+D:\Others\Проги\infsys\ConnectionTest\bin\Debug\ConnectionTest.dll
+D:\Others\Проги\infsys\ConnectionTest\bin\Debug\ConnectionTest.pdb
+D:\Others\Проги\infsys\ConnectionTest\bin\Debug\infsys.exe
+D:\Others\Проги\infsys\ConnectionTest\bin\Debug\infsys.pdb
+D:\Others\Проги\infsys\ConnectionTest\obj\Debug\ConnectionTest.dll
+D:\Others\Проги\infsys\ConnectionTest\obj\Debug\ConnectionTest.pdb

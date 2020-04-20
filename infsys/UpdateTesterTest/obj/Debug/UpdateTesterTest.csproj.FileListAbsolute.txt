@@ -1,0 +1,7 @@
+D:\Others\Проги\infsys\UpdateTesterTest\obj\Debug\UpdateTesterTest.csprojResolveAssemblyReference.cache
+D:\Others\Проги\infsys\UpdateTesterTest\bin\Debug\UpdateTesterTest.dll
+D:\Others\Проги\infsys\UpdateTesterTest\bin\Debug\UpdateTesterTest.pdb
+D:\Others\Проги\infsys\UpdateTesterTest\bin\Debug\infsys.exe
+D:\Others\Проги\infsys\UpdateTesterTest\bin\Debug\infsys.pdb
+D:\Others\Проги\infsys\UpdateTesterTest\obj\Debug\UpdateTesterTest.dll
+D:\Others\Проги\infsys\UpdateTesterTest\obj\Debug\UpdateTesterTest.pdb

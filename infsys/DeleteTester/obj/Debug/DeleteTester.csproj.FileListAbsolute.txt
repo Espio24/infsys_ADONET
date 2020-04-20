@@ -1,0 +1,7 @@
+D:\Others\Проги\infsys\DeleteTester\bin\Debug\DeleteTester.dll
+D:\Others\Проги\infsys\DeleteTester\bin\Debug\DeleteTester.pdb
+D:\Others\Проги\infsys\DeleteTester\bin\Debug\infsys.exe
+D:\Others\Проги\infsys\DeleteTester\bin\Debug\infsys.pdb
+D:\Others\Проги\infsys\DeleteTester\obj\Debug\DeleteTester.csprojResolveAssemblyReference.cache
+D:\Others\Проги\infsys\DeleteTester\obj\Debug\DeleteTester.dll
+D:\Others\Проги\infsys\DeleteTester\obj\Debug\DeleteTester.pdb

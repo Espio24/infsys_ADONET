@@ -10,9 +10,9 @@ using System.Data.Common;
 
 namespace infsys
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             
             string connectionString = ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
@@ -21,13 +21,13 @@ namespace infsys
             MySqlConnection connection = new MySqlConnection(connectionString);
             try
             {
-                // Открываем подключение
+               
                 connection.Open();
                 Console.WriteLine("Подключение открыто");
                 //InsertTester(connection,  "KarpovSS");
-                //UpdateTesterById(connection, 18, "JaSdelalEtoGovno"); 
+                //UpdateTesterById(connection, 18, "Vasya"); 
                 //DeleteTester(connection, 18);
-                //SelectTesterByName(connection, "Tom");
+               // SelectTesterByName(connection, "Tom");
                
             }
             catch (MySqlException ex)
@@ -36,7 +36,7 @@ namespace infsys
             }
             finally
             {
-                // закрываем подключение
+               
                 connection.Close();
                 Console.WriteLine("Подключение закрыто...");
             }
@@ -45,8 +45,9 @@ namespace infsys
        
               }
 
+
         //Воод тестеров
-        private static void InsertTester(MySqlConnection connection, string Name)
+        public static int InsertTester(MySqlConnection connection, string Name)
         {
             // Команда Insert.
             string sql = "Insert into tester (name_tester) "
@@ -57,12 +58,15 @@ namespace infsys
             command.Parameters.Add(nameParam);
 
             int number = command.ExecuteNonQuery();
-            Console.WriteLine("Добавлено объектов: {0}", number); 
+            Console.WriteLine("Добавлено объектов: {0}", number);
+
+
+            return 0;
 
         }
 
         //обновление тестеров
-        private static void UpdateTesterById(MySqlConnection connection, int id, string NewName)
+        public static int UpdateTesterById(MySqlConnection connection, int id, string NewName)
         {
             // Команда Update
             string sql = "Update tester Set name_tester = @name_tester Where id_tester = @id";
@@ -75,11 +79,13 @@ namespace infsys
 
 
             int number = command.ExecuteNonQuery();
-            Console.WriteLine("Обновлено объектов: {0}", number); 
+            Console.WriteLine("Обновлено объектов: {0}", number);
+
+            return 0;
             
         }
 
-        private static void DeleteTester(MySqlConnection connection, int id)
+        public static int DeleteTester(MySqlConnection connection, int id)
         {
             // Команда Update
             //string sql = string.Format("Delete from tester where idTester = '{0}'", id);
@@ -91,13 +97,13 @@ namespace infsys
 
 
             int number = command.ExecuteNonQuery();
-            Console.WriteLine("Удалено объектов: {0}", number); 
-            
+            Console.WriteLine("Удалено объектов: {0}", number);
 
+            return 0;
         }
 
         //Select
-        private static void SelectTesterByName(MySqlConnection connection, String Name)
+        public static int SelectTesterByName(MySqlConnection connection, String Name)
         {
             string sql = "SELECT * FROM system_manager.tester where name_tester = @name_tester";
 
@@ -124,11 +130,34 @@ namespace infsys
                     }
                 }
             }
-
+         return 0;
         }
 
+        //Проверка подключения
+        public static int Connection()
+        {
+
+            string connectionString = "server = localhost; port = 3306; username = root; password = vbif159753; database = system_manager";
 
 
+            MySqlConnection connection = new MySqlConnection(connectionString);
+            try
+            {
+                connection.Open();
+                Console.WriteLine("Подключение открыто");
+            }
+            catch (MySqlException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                connection.Close();
+                Console.WriteLine("Подключение закрыто...");
+            }
 
+            return 0;
+
+        }
     }
 }

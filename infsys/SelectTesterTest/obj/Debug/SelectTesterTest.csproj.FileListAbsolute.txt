@@ -1,0 +1,7 @@
+D:\Others\Проги\infsys\SelectTesterTest\bin\Debug\SelectTesterTest.dll
+D:\Others\Проги\infsys\SelectTesterTest\bin\Debug\SelectTesterTest.pdb
+D:\Others\Проги\infsys\SelectTesterTest\bin\Debug\infsys.exe
+D:\Others\Проги\infsys\SelectTesterTest\bin\Debug\infsys.pdb
+D:\Others\Проги\infsys\SelectTesterTest\obj\Debug\SelectTesterTest.csprojResolveAssemblyReference.cache
+D:\Others\Проги\infsys\SelectTesterTest\obj\Debug\SelectTesterTest.dll
+D:\Others\Проги\infsys\SelectTesterTest\obj\Debug\SelectTesterTest.pdb
