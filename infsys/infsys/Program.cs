@@ -24,7 +24,7 @@ namespace infsys
                
                 connection.Open();
                 Console.WriteLine("Подключение открыто");
-                //InsertTester(connection,  "KarpovSS");
+                InsertTester(connection,  "KarpovSS");
                 //UpdateTesterById(connection, 18, "Vasya"); 
                 //DeleteTester(connection, 18);
                // SelectTesterByName(connection, "Tom");
@@ -137,7 +137,7 @@ namespace infsys
         public static int Connection()
         {
 
-            string connectionString = "server = localhost; port = 3306; username = root; password = vbif159753; database = system_manager";
+            string connectionString = ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
 
 
             MySqlConnection connection = new MySqlConnection(connectionString);
