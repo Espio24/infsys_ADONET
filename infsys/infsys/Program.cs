@@ -24,7 +24,7 @@ namespace infsys
                
                 connection.Open();
                 Console.WriteLine("Подключение открыто");
-                InsertTester(connection,  "KarpovSS");
+               // InsertTester(connection,  "KarpovSS");
                 //UpdateTesterById(connection, 18, "Vasya"); 
                 //DeleteTester(connection, 18);
                // SelectTesterByName(connection, "Tom");
@@ -149,6 +149,7 @@ namespace infsys
             catch (MySqlException ex)
             {
                 Console.WriteLine(ex.Message);
+                return 1;
             }
             finally
             {
